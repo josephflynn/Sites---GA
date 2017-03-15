@@ -1,8 +1,12 @@
+body {
+  margin: 0;
+}
 .heading{
 	background-image:url(../images/header_bg.jpg);
 	background-repeat:no-repeat;
 	display:block;
 	padding-bottom:200px;
+	margin-top:0px;
 }
 
 .background-image{
