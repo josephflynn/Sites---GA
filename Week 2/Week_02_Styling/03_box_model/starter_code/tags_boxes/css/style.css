@@ -1,0 +1,41 @@
+h1{
+  background-color:red;
+  padding:60px;
+  border:3px solid blue;
+}
+
+p{
+  background-color:blue;
+  padding:20px;
+  color:white;
+  border:1px solid black;
+}
+
+code{
+  background-color:white;
+  padding:1px;
+  color:black;
+  border:1px solid black;
+}
+
+h2{
+  background-color:#00ffff;
+  padding:35px;
+  color:#ff3399;
+  border:3px solid #8cff66;
+}
+
+ol{
+  background-color:#00ffff;
+  padding:10px;
+  color:#ff4339;
+  border:3px solid #8cff96;
+}
+
+li{
+  background-color:#00ffff;
+  padding:10px;
+  color:#ff4339;
+  border:1px solid #ff4339;
+  margin: 10px 10px 10px 20px;
+}

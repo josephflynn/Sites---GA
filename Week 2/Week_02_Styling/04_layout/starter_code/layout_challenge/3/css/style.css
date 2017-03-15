@@ -1,0 +1,33 @@
+.greyBox{
+	border:1px solid #8c8c8c;
+	background-color:#cccccc;
+	margin:20px;
+}
+
+.mainContent{
+	display:flex;
+	justify-content:center;
+}
+
+.underAside{
+	display:flex;
+	justify-content:center;
+}
+
+header{
+	height:150px;
+}
+
+section{
+	height:500px;
+	width:100%;
+}
+
+aside{
+	height:200px;
+	width:30%;
+}
+
+footer{
+	height:150px;
+}
