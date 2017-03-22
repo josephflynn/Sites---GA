@@ -1,0 +1,278 @@
+/* 
+    Let's load in Work Sans Light, Regular, Medium and Bold
+    from Google Fonts (https://fonts.google.com/specimen/Work+Sans?selection.family=Work+Sans)
+*/
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Work Sans ExtraLight'), local('WorkSans-ExtraLight'), url(https://fonts.gstatic.com/s/worksans/v2/u_mYNr_qYP37m7vgvmIYZ4joYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Work Sans ExtraLight'), local('WorkSans-ExtraLight'), url(https://fonts.gstatic.com/s/worksans/v2/u_mYNr_qYP37m7vgvmIYZxampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Work Sans Light'), local('WorkSans-Light'), url(https://fonts.gstatic.com/s/worksans/v2/FD_Udbezj8EHXbdsqLUpl4joYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Work Sans Light'), local('WorkSans-Light'), url(https://fonts.gstatic.com/s/worksans/v2/FD_Udbezj8EHXbdsqLUplxampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Work Sans'), local('WorkSans-Regular'), url(https://fonts.gstatic.com/s/worksans/v2/WB2LNay3rHMH1zU8UJnUHIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Work Sans'), local('WorkSans-Regular'), url(https://fonts.gstatic.com/s/worksans/v2/ElUAY9q6T0Ayx4zWzW63VJBw1xU1rKptJj_0jans920.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Work Sans Medium'), local('WorkSans-Medium'), url(https://fonts.gstatic.com/s/worksans/v2/Nbre-U_bp6Xktt8cpgwaJIjoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Work Sans Medium'), local('WorkSans-Medium'), url(https://fonts.gstatic.com/s/worksans/v2/Nbre-U_bp6Xktt8cpgwaJBampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Work Sans SemiBold'), local('WorkSans-SemiBold'), url(https://fonts.gstatic.com/s/worksans/v2/z9rX03Xuz9ZNHTMg1_ghGYjoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Work Sans SemiBold'), local('WorkSans-SemiBold'), url(https://fonts.gstatic.com/s/worksans/v2/z9rX03Xuz9ZNHTMg1_ghGRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+}
+
+/* 
+    Write Your Own Styles Below Here
+*/
+
+body{
+  font-family: 'Work Sans';
+  
+}
+
+img{
+  max-width:100%;
+}
+
+a{
+  text-decoration:none;
+
+}
+
+.header{
+  background-image:url(../img/header-bg.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  height: 600px;
+  display:flex;
+  justify-content:space-between;
+  max-width:100%;
+}
+
+.title{
+  padding-left:100px;
+  padding-top:150px;
+}
+
+.logo{
+  width:100px;
+  padding-bottom:30px;
+}
+
+h1{
+  color:#00DFFF;
+  font-size:60px;
+  font-weight:100;
+  line-height:1.3em;
+}
+
+.lang {
+  font-size: 10px;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 20px 40px 20px 0;
+  z-index: 49;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  color: rgba(255,255,255,0.3);
+}
+
+.features{
+  background-color:rgb(250,249,248);
+  padding:110px;
+}
+
+h3{
+  color:rgb(51,51,51);
+  font-size:20px;
+  font-weight:400;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.branding{
+  padding:30px;
+  width:100%;
+}
+
+.branding p{
+  color:rgba(51,51,51,0.4);
+  font-size:15px;
+  font-weight:400;
+  line-height:1.8em;
+}
+
+.branding img{
+  height:50px;
+}
+
+.features{
+  display:flex;
+  flex-direction:column;
+}
+
+.up{
+  display:flex;
+  justify-content:space-between;
+}
+
+.images{
+  padding:0px 100px 0px 100px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.above{
+  display:flex;
+  padding:40px;
+  justify-content:space-between;
+}
+
+.left{
+  padding-right:40px;
+  justify-content:space-between;
+}
+
+.mailtrack{
+  padding-top:40px;
+}
+
+.below{
+  padding-left:40px;
+  padding-right:40px;
+  padding-bottom:40px;
+}
+
+.footer{
+  background-image:url(../img/footer-bg.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+h2{
+  text-align:center;
+  padding-top:70px;
+  font-size:60px;
+  font-weight:100;
+  padding-bottom:40px;
+  color:white;
+}
+
+.footer p{
+  color:white;
+  text-align:center;
+  padding-bottom:40px;
+  font-size:20px;
+  font-weight:300;
+}
+
+.footer p a{
+  color:white;
+  text-decoration:underline;
+}
+
+.button{
+  text-align:center;
+}
+
+.contact{
+  padding:5px 30px 5px 30px;
+  background-color:white;
+  text-align:center;
+}
+
+.footer .copyright p{
+  padding-top:80px;
+  padding-bottom:20px;
+  font-size:12px;
+  font-weight:400;
+  text-align:center;
+  color:rgba(255,255,255,0.3);
+}
+
+.copyright{
+}
+
+.big-button {
+    display: inline-block;
+    -webkit-appearance: none;
+    padding: 0.8em 1.5em;
+    font-family: "Work Sans","Helvetica Neue",Helvetica,sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ea2150 !important;
+    background: #fff;
+    border: 0;
+    border-bottom: 2px solid rgba(0,223,255,0.2);
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+#emial{
+  color:white;
+}

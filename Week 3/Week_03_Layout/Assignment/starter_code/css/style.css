@@ -1,0 +1,263 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background-color: #f0efef;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+
+}
+
+footer{
+  font-family: 'Open Sans', sans-serif;
+  font-size:9px;
+  font-style:;
+  font-weight:300;
+  color:white;
+  text-align:center;
+  padding-top:20px;
+  padding-bottom:10px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+a{
+  text-decoration:none;
+}
+
+.list a{
+  font-weight:300;
+  font-size:24px;
+  color:#033048;
+}
+
+.learn a{
+  font-size:22px;
+  font-weight:600;
+  color:#033048;
+}
+
+.item p{
+  font-size:22px;
+  font-weight:300;
+  color:#033048;
+}
+
+.container{
+  display:flex;
+  justify-content:space-between;
+  width: 960px;
+  margin: auto;
+}
+
+#header{
+  background-color:#033048;
+  height:80px;
+}
+
+.menu{
+  display:flex;
+  justify-content:space-around;
+  width:480px;
+  padding-top:20px;
+}
+
+.menuItem{
+  font-family: 'Open Sans', sans-serif;
+  flex-basis:5%;
+  font-size:24px;
+  font-weiht:600;
+  color:#f9e42e;
+}
+
+.main{
+  width:700px;
+  margin-top:75px;
+}
+
+img{
+  margin-top:10px;
+  margin-bottom:15px;
+}
+
+.article{
+
+}
+
+h2{
+  font-weight:600;
+  font-size:40px;
+  color:#033048;
+}
+
+h3{
+  font-size:32px;
+  font-weight:800;
+  color:#033048;
+}
+
+.article p{
+  font-weight:300;
+  font-size:24px;
+  color:#606161;
+}
+
+.article p::first-letter{
+  font-size:300%;
+  font-weight:600;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.article a{
+  font-size:24px;
+  font-weight:600;
+  color:#033048;
+}
+
+.more{
+  text-align:right;
+  margin-top:40px;
+  margin-bottom:30px;
+}
+
+.sidebar{
+  width:240px;
+  margin-top:75px;
+}
+
+.item{
+  margin-bottom:40px;
+}
+
+.Relaxr{
+  float:left;
+  width:480px;
+  font-family: 'Open Sans', sans-serif;
+  font-size:40px;
+  font-weight:800;
+  color:white;
+  text-decoration:none;
+  padding-left:0px;
+  padding-top:10px;
+}
+
+.flexbox{
+  display:flex;
+  justify-content:center;
+}
+
+.button{
+  background-color:#f9e42e;
+  padding: 20px;
+}
+
+.sign{
+  font-family: 'Open Sans', sans-serif;
+  font-size:12px;
+  font-weight:800;
+  background-color:#033048;
+  padding:5px 30px 5px 30px;
+  text-align:center;
+  border:1px solid #033048;
+  border-radius:5px;
+  color:white;
+}
+
+.R2{
+  font-family: 'Open Sans', sans-serif;
+  font-size:24px;
+  font-weight:800;
+  text-decoration:none;
+  color:#f9e42e;
+  text-align:center;
+}
+
+.footer{
+  background-color:#121212;
+  padding:10px 0px 10px 0px;
+}
+
+.logos{
+  display:inline-block;
+  margin:10px;
+  height:20px;
+}
+
+hr{
+  margin-bottom:30px;
+  border:0;
+  border-top:1px solid black;
+}
+
+#bottomHr{
+  margin-bottom:100px;
+}
+
+
+
+
+
+
+
