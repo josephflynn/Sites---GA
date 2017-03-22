@@ -166,8 +166,8 @@ h3{
 .article p::first-letter{
   font-size:300%;
   font-weight:600;
-  display:inline-block;
-  vertical-align:middle;
+  float:left;
+  line-height:0.9em;
 }
 
 .article a{
