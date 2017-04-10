@@ -66,7 +66,7 @@ $(document).ready(function(){
 			$("body").attr("class","austin");
 			break;
 
-		case "los angelese" :
+		case "los angeles" :
 		case "la" :
 		case "lax" :
 			$("body").attr("class","la");
