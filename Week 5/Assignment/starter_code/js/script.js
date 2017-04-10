@@ -4,13 +4,14 @@
 //Prevent the Submit button from refreshing the page.
 //Get the string that the user types into the "input" id="city-type" and correct 
 //		capitalisation as well as remove extra spaces before or after the input
+//reset the user "input" field after it is submitted
 //If a user submits:
 //❍ "New York" or "New York City" or "NYC" make the background of the page nyc.jpg
 //❍ "San Francisco" or "SF" or "Bay Area" make the background of the page sf.jpg
 //❍ "Los Angeles" or "LA" or "LAX" make the background of the page la.jpg
 //❍ "Austin" or "ATX" make the background of the page austin.jpg
 //❍ "Sydney" or "SYD" make the background of the page sydney.jpg
-//reset the user "input" field after it is submitted
+
 
 
 $(document).ready(function(){
