@@ -5,10 +5,15 @@ $(document).ready(function(){
 
 	$(".hide").click(function(){
 		$(".menu").toggle();
-		var x = $("#left");
-		if (x.style.justify-content === 'flex-start'){
-			x.style.flex-direction === 'column';
-		}
+		var x = $(".menu");
+		if (".menu".style.flex-direction === 'row';){
+			".menu".style.flex-direction === 'column';
+			".menu".style.display === 'block';
+		};
+		else (".menu".style.flex-direction === 'column'){
+			".menu".style.flex-direction === 'row';
+			".menu".style.display === 'none';
+		};
 	});
 
 

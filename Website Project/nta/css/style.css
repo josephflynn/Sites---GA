@@ -1,0 +1,452 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+html{
+	font-size:10;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+Fonts--->
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Dosis', sans-serif;
+
+
+
+Custom styles:
+--------------------------------------->>>>
+*/
+
+.container{
+	display:flex;
+	justify-content:space-between;
+	flex-direction:row;
+}
+
+.container1{
+	display:flex;
+	justify-content:space-around;
+}
+
+.container2{
+	display:flex;
+	flex-direction:row;
+}
+
+.box-shadow-menu {
+  position: fixed;
+  padding-left: 1.25em;
+  margin:7.5px;
+}
+.box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 1.5rem;
+  height: 0.15rem;
+  background: black;
+  box-shadow: 
+    0 0.25em 0 0 black,
+    0 0.5em 0 0 black;
+}
+
+button {
+  outline: none;
+}
+
+.hide{
+	display:none;
+}
+
+.everypage{
+	position:fixed;
+	overflow:hidden;
+}
+
+.leftBar{
+	height:100%;
+	width:40px;
+	position:fixed;
+	overflow:hidden;
+	margin:0;
+	background-color:#ccc;
+	transition:0.8s;
+	z-index:3;
+}
+
+.click{
+	height:100%;
+	width:400px;
+	position:fixed;
+	overflow:hidden;
+	margin:0;
+	background-color:#ccc;
+	transition:0.8s;
+}
+
+.menuList{
+	margin-top:20px;
+	display:none;
+	transition-delay:0.8s;
+}
+
+.media{
+	height:30px;
+	position: fixed;
+  	bottom:0;
+	margin-left:250px;
+	margin-bottom:10px;
+	display:flex;
+	flex-direction:row;
+	transition-delay:2s;
+}
+
+.facebook{
+	background-image:url("../img/bw-facebook.png");
+	height:30px;
+	width:30px;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin-right:8px;
+	display:none;
+	transition:2s;
+}
+.twitter{
+	background-image:url("../img/twitter-2048-black.png");
+	height:30px;
+	width:30px;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin-right:8px;
+	display:none;
+	transition:2s;
+}
+.paypal{
+	background-image:url("../img/paypal.png");
+	height:30px;
+	width:30px;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin-right:8px;
+	display:none;
+	transition:2s;
+}
+.bitcoin{
+	background-image:url("../img/Bitcoin-price-icon.png");
+	height:30px;
+	width:30px;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin-right:8px;
+	display:none;
+	transition:2s;
+}
+
+.copyright{
+	color:#ffffff;
+	position: fixed;
+  	bottom: 0;
+	margin-left:8px;
+	margin-bottom:10px;
+	opacity:0;
+	transition:;
+}
+
+.copyright:hover{
+	color:#ffffff;
+	position: fixed;
+  	bottom: 0;
+	margin-left:8px;
+	margin-bottom:10px;
+	opacity:1;
+	transition:2s;
+}
+
+a{
+	text-decoration:inherit;
+	color:inherit;
+}
+
+a:hover{
+	opacity:0.7;
+	transition:0.3s;
+}
+
+a.noFade:hover{
+	opacity:1;
+}
+
+.unhide{
+	display:block;
+	transition:0.8s;
+}
+
+.unhide1{
+	display:block;
+	transition:2s;
+}
+
+.header{
+	display:flex;
+	flex-direction:row;
+	justify-content:sflex-start;
+	align-items:center;
+}
+
+.menu{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	position:fixed;
+	width:100%;
+	height:60px;
+	margin-left:40px;
+	background-color:white;
+	box-shadow:0px 0px 10px #888888;
+	z-index:2;
+	opacity:1;
+}
+
+img.logo{
+	height:40px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:20px;
+}
+
+.imgHover:hover{
+	opacity:0.92;
+	transition:0.5s;
+	transition:0.5s ease-out;
+}
+
+h1{
+	font-family:Open Sans;
+	font-weight:600;
+	font-size:1.3rem;
+	margin-left:20px;
+}
+
+h1.listMenu{
+	margin-bottom:20px;
+	margin-left:8px;
+	padding:0px;
+	font-size:2rem;
+	transition:0.8s;
+}
+
+h1.headline2{
+	font-size:0.9rem;
+	width:100px;
+	margin-left:0px;
+}
+
+.menuItems{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+}
+
+h2{
+	font-family:Open Sans;
+	font-size:.8rem;
+}
+
+h3{
+	font-family:Open Sans;
+	font-size:1.5rem;
+	width:500px;
+	margin-left:20px;
+}
+
+h3.headlineBoxes{
+	font-size:1rem;
+	width:100%;
+	margin-left:0px;
+}
+
+.items{
+	font-family:Open Sans;
+	font-size:.8rem;
+	margin-right:40px;
+}
+
+.mainContent{
+	margin-left:40px;
+	padding-top:64px;
+	padding-left:4px;
+	padding-right:4px;
+	position:relative;
+	top:-60px;
+	z-index:1;
+}
+
+.carousel{
+	width:100%;
+	height:500px;
+	margin-top:60px;
+}
+
+.slide1{
+	background-image:url("../img/news/Olafur-Eliasson-01.jpg");
+	height:500px;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.fakeNews{
+	width:49.8%;
+	height:350px;
+	background-color:white;
+	margin-top:4px;
+	display:flex;
+	flex-direction:column;
+}
+
+
+.evenFNews{
+	min-height:50px;
+}
+
+.artCultureMemes{
+	width:49%;
+	margin-top:4px;
+}
+
+.art{
+	width:49.8%;
+}
+
+.newsImg1{
+	background-image:url("../img/news/alex-jones-image-4.jpg");
+	height:300px;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	transition:0.5s ease-out;
+}
+.newsImg2{
+	background-image:url("../img/news/lebeoufmarina.jpg");
+	height:300px;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	transition:0.5s ease-out;
+}
+.newsImg3{
+	background-image:url("../img/news/AR00345_10.jpg");
+	height:300px;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	transition:0.5s ease-out;
+}
+.newsImg4{
+	background-image:url("../img/news/f_trump_kanye2_161213__394670.jpg");
+	height:300px;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	transition:0.5s ease-out;
+}
+
+.ad{
+	height:80px;
+	width:110px;
+	margin:20px;
+	background-color:#e3ffcc;
+}
+
+.art{
+	width:49.8%;
+	height:350px;
+	background-color:#ccc;
+}
+
+.culture{
+	width:24.6%;
+	height:350px;
+	background-color:#ccc;
+}
+
+.footer{
+	height:200px;
+}
+
+.logoB{
+	height:60px;
+	width:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:0px;
+	opacity:0.5;
+}
+
+
+Home
+About
+Contribute
+Subscribe
+Advertise
+Disclaimer
+Donate
+Contact
+
+
+
+
+
+
+
+

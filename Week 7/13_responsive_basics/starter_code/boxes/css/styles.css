@@ -121,7 +121,6 @@ html{
 	#left{
 		display: flex;
 		justify-content: flex-start;
-		transition:2s;
 	}
 	
 	#right{
@@ -137,7 +136,8 @@ html{
 		margin-top:10px;
 		margin-bottom:10px;
 		display:none;
-		transition:transform 2s;
+		flex-direction:row;
+		transition:2s;
 	}
 	
 	.hide{
