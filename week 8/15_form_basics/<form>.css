@@ -1,0 +1,52 @@
+input[type="password"], input[type="text"]{
+    display: block;
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+label{
+  font-weight:bold;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.radio-label{
+  padding-right:15px;
+  font-size:14px;
+  text-transform:none;
+  cursor: pointer;
+}
+
+select{
+  display: block;
+  width: 100%;
+  height:30px;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+input[type="submit"]{
+   background: none;
+   border: 1px solid black;
+   border-radius: 2px;
+   transition: 1s;
+}
+
+input[type="submit"]:hover{
+   background: black;
+   border: 5px solid blue;
+   color: yellow;
+   border-radius: 2px;
+   padding: 10px 20px;
+
+}
+
+
+.radio-container{
+  display: flex;
+  justify-content: center;
+}

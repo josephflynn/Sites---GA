@@ -15,53 +15,23 @@ $(document).ready(function(){
 
 	console.log("Hello World");
 
-	var city = ["NYC", "SF", "LA", "ATX", "SYD"]
-	console.log(city)
+	var cities = ["NYC", "SF", "LA", "ATX", "SYD"]
 
-	city.forEach(function(e, index, arr){
-		console.log(index + ": " + e);
+	  for(i=0;i<cities.length;i++) {
 
-		$('form').change(function(){switch(city){
-		case "new york city" :
-		case "NYC" :
-		case "new york" :
-			$('body').attr('class','nyc');
-			break;
-
-		case "SF" :
-		case "san francisco" :
-		case "bay area" :
-			$("body").attr("class","sf");
-			break;
-
-		case "austin" :
-		case "ATX" :
-			$("body").attr("class","austin");
-			break;
-
-		case "los angeles" :
-		case "LA" :
-		case "lax" :
-			$("body").attr("class","la");
-			break;
-		case "sydney" :
-		case "SYD" :
-			$("body").attr("class","sydney");
-			break;
-	};
-	});
-
-		$('#city-type').append('<option value ="' + e + '">' + e + '</option>')
-
-		$( '#city-type' ).val(e);
-		
-
-		$('body').change(function(){
-
-		});
+    $('#city-type').append('<option value="' + cities[i] + '">' + cities[i] + '</option>');
+  }
 
 
-	});
+  $('#city-type').change(changeBackground);
+  
+
+  function changeBackground(){
+  	var cityName = $('#city-type').val();
+  	cityName = cityName.toLowerCase();
+  	$('body').attr('class', cityName);
+  }
+	
 
 	
 });

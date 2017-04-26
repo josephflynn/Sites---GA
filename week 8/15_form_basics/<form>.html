@@ -1,0 +1,56 @@
+<form>
+  
+  <label for="name">Full Name</label>
+  <input name="name" type="text" placeholder="Name" />
+
+  <label for="email">Email Address</label>
+  <input name="email" type="text" placeholder="Email" />
+  
+  <label for="password">Password</label>
+  <input name="password" type="password" />
+
+  <div class="radio-container">
+    <div>
+      <input id="radio-dog" type="radio" name="pet">
+      <label class="radio-label" for="radio-dog">Dog</label>
+    </div>
+    <div>
+      <input id="radio-cat" type="radio" name="pet">
+      <label class="radio-label" for="radio-cat">Cat</label>
+    </div>
+    <div>
+      <input id="radio-elephant" checked type="radio" name="pet">
+      <label class="radio-label" for="radio-elephant">Elephant</label>
+    </div>
+
+  </div>
+
+  <div>
+    <input type="checkbox" name="pet2">
+    <span>Dog</span>
+  </div>
+  <div>
+    <input type="checkbox" name="pet2" checked>
+    <span>Cat</span>
+  </div>
+  <div>
+    <input checked type="checkbox" name="pet2">
+    <span>Elephant</span>
+  </div>
+
+  <input type="file" name="profilePhoto" />
+
+  <textarea name="message" placeholder="enter a message">Hi my name is James</textarea>
+
+  <select name="timezone">
+    <option value="gmt11">GMT +11 (Melbourne / Sydney / Whatever)</option>
+    <option value="gmt11">GMT +12 (Melbourne / Sydney / Whatever)</option>
+    <option value="gmt11" selected>GMT +13 (Some different cities)</option>
+    <option value="gmt11">GMT +11 (Melbourne / Sydney / Whatever)</option>
+    <option value="gmt11">GMT +11 (Melbourne / Sydney / Whatever)</option>
+    
+  </select>
+
+  <input type="submit" value="Sign up!">
+
+</form>

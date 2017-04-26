@@ -1,0 +1,27 @@
+/*
+ Cat Image: http://i.imgur.com/W7Tpxcl.jpg
+
+ Dog Image: http://i.imgur.com/tAUkQBu.jpg
+
+ Llama Image: blob:http://imgur.com/ac49ab68-f0fb-493d-9cc8-7e84bd1714c5
+
+*/
+.container{
+  width:100%;
+  height:600px;
+}
+/*
+.cat{
+  background-image: url("http://i.imgur.com/W7Tpxcl.jpg");
+  background-size:cover;
+}
+
+.dog{
+  background-image: url("http://i.imgur.com/tAUkQBu.jpg");
+  background-size:cover;
+}
+
+.llama{
+  background-image: url("https://pbs.twimg.com/profile_images/269279233/llama270977_smiling_llama_400x400.jpg");
+  background-size:cover;
+}

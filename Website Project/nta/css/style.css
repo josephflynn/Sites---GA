@@ -433,6 +433,10 @@ h3.headlineBoxes{
 	opacity:0.5;
 }
 
+.footerLinks:hover{
+	opacity:1;
+}
+
 
 Home
 About
