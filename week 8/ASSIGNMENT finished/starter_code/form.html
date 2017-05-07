@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>City Background</title>
+
+		<!-- external CSS linkx -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Taviraj:300,300i,400,400i,500,500i,600,700" rel="stylesheet">
+
+	</head>
+	<body class="form">
+		<div class="top">
+			<h1 class="header">Send us a message</h1>
+			<p class="sub">We usually respond within 1 business day</p>
+		</div>
+		<div class="inputs">
+			<h2>General Info</h2>
+
+			<label for="name">Name*</label>
+			<input name="name" type="text" placeholder="John Smith" class="input fontChange"/>
+			<label for="email">Email*</label>
+			<input name="email" type="text" placeholder="name@mydomain.com" class="input fontChange"/>
+			<label for="company">Company</label>
+			<input name="company" type="text" placeholder="Acme Inc." class="input fontChange"/>
+			<label for="event">How did you hear about us?</label>
+			<input name="even" type="text" placeholder="Event" class="input fontChange"/>
+			<label for="">What would you like to discuss?</label>
+			<div class="radioContainer">
+				<input id="hiringPhil" type="radio" name="discuss">
+				<label class="radio-label fontChange" for="hiringPhil">Hiring Philosophie</label>
+				<input id="joinPhil" type="radio" name="discuss">
+				<label class="radio-label fontChange" for="joinPhil">Join the Philosophie team</label>
+				<input id="other" type="radio" name="discuss">
+				<label class="radio-label fontChange" for="other">Other</label>
+			</div>
+			<br>
+			<h2 class="Pinfo">Project Info</h2>
+			<label for="radioContainer">Which of our offerings interest you?</label>
+			<div class="checkBoxContainer">
+    			<input type="checkbox" name="lean" class="offerQ">
+    			<span class="offers fontChange">Lean Branding</span>
+    			<input type="checkbox" name="offers" class="offerQ">
+    			<span class="offers fontChange">4 Week MVP</span>
+    			<input type="checkbox" name="offers" class="offerQ">
+    			<span class="offers fontChange">Product Team</span>
+    			<input type="checkbox" name="offers" class="offerQ">
+    			<span class="offers fontChange">Design Sprint</span>
+    			<input type="checkbox" name="offers" class="offerQ">
+    			<span class="offers fontChange">Other</span>
+    		</div>
+    		<br>
+    		<label for="problem">What is the problem you are trying to solve?</label>
+    		<textarea name="problem" class="textInput" placeholder=""></textarea>
+    		<br>
+    		<label for="engagement">What do you hope our engagement will accomplish?</label>
+    		<textarea name="engagement" class="textInput" placeholder=""></textarea>
+    		<br>
+    		<label for="">What is your budget range?</label>
+    		<div class="radioContainer">
+			<input id="less40" type="radio" name="budget">
+			<label class="radio-label fontChange" for="less40">less thank $40k</label>
+			<input id="upTo100" type="radio" name="budget">
+			<label class="radio-label fontChange" for="upTo100">$40k - $100k</label>
+			<input id="upTo250" type="radio" name="budget">
+			<label class="radio-label fontChange" for="upTo250">$100k - $250k</label>
+			<input id="upTo500" type="radio" name="budget">
+			<label class="radio-label fontChange" for="upTo500">$250k - $500k</label>
+			<input id="above500" type="radio" name="budget">
+			<label class="radio-label fontChange" for="above500">$500k +</label>
+			</div>
+
+			<input type="submit" value="Submit" class="submitButton">
+
+		</div>
+
+
+
+
+		<script
+		  src="https://code.jquery.com/jquery-3.2.1.min.js"
+		  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		  crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>

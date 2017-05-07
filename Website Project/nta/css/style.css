@@ -337,12 +337,35 @@ h3.headlineBoxes{
 	margin-top:60px;
 }
 
+.carPad{
+	padding-top:14px;
+}
+
 .slide1{
 	background-image:url("../img/news/Olafur-Eliasson-01.jpg");
 	height:500px;
 	background-position:center center;
 	background-size:cover;
 	background-repeat:no-repeat;
+	float:left;
+}
+
+.slide2{
+	background-image:url("../img/news/Olafur-Eliasson-01.jpg");
+	height:500px;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	float:left;
+}
+
+.slide3{
+	background-image:url("../img/news/Olafur-Eliasson-01.jpg");
+	height:500px;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	float:left;
 }
 
 .fakeNews{
